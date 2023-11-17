@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+/* image font le maximum de la taille de leur contenant et ne depasse pas du contenant */
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    min-height: 150px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+footer {
+    min-height: 150px;
+    background-color: cadetblue;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
